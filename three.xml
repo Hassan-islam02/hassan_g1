@@ -1,1 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<records xmlns:e="http://www.google.com/staff" xmlns:s="http://www.google.com/staff" xmlns:w="http://www.google.com/staff">
+
+    <e:record>
+        <e:name>max</e:name>
+        <e:age>12</e:age>
+        <e:city></e:city>
+    </e:record>
+
+    <s:record>
+        <s:name>smith</s:name>
+        <s:age>15</s:age>
+        <s:city>karachi</s:city>
+    </s:record>
+
+    <w:record>
+        <w:name>spider</w:name>
+        <w:age>15</w:age>
+        <w:city>peshawar</w:city>
+    </w:record>
+
+</records>
