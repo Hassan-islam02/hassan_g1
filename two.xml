@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<organization>
+
+    <department>
+        <name>yazdaan</name>
+        <age>23</age>
+        <designation>developer</designation>
+        <salary>20,000</salary>
+    </department>
+    <department>
+        <name>fahad</name>
+        <age>20</age>
+        <designation>cleaner</designation>
+        <salary>10,000</salary>
+    </department>
+    <department>
+        <name>hamza</name>
+        <age>25</age>
+        <designation>backend developer</designation>
+        <salary>40,000</salary>
+    </department>
+    <department>
+        <name>yasir</name>
+        <age>27</age>
+        <designation>accountant</designation>
+        <salary>35,000</salary>
+    </department>
+
+</organization>

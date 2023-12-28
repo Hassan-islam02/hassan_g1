@@ -2,17 +2,20 @@
 
 
 <foodname>
-    <fooditem>
+    <fooditem type="Italian">
         <name>pizza</name>
         <cost>$10</cost>
     </fooditem>
+    <fooditem type="pakistani">
     <name>biryani</name>
         <cost>$08</cost>
     </fooditem>
+    <fooditem type="American">
     <name>fries</name>
         <cost>$5</cost>
+    <fooditem type="china">
     </fooditem>
-    <name>Steak</name>
+    <name>chinese</name>
         <cost>$15</cost>
     </fooditem>
 </foodname>
