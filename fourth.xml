@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="first.xsl" type="text/xsl"?>
+
+<orgnaization>
+    <department>
+        <name>engineering dep</name>
+        <block>b</block>
+        <location>street 04</location>
+        <number>4277264</number>
+    </department>
+
+    <department>
+        <name>law dep</name>
+        <block>b</block>
+        <location>street 04</location>
+        <number>3277264</number>
+    </department>
+
+    <department>
+        <name>arts dep</name>
+        <block>y</block>
+        <location>street 14</location>
+        <number>5277264</number>
+    </department>
+
+    <department>
+        <name>medical dep</name>
+        <block>z</block>
+        <location>street 15</location>
+        <number>6277264</number>
+    </department>
+
+</orgnaization>
