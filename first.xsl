@@ -10,7 +10,7 @@
             <h2>xsl work</h2>
             <table border="3">
                 <tr>
-                    <th colspan="3">dalda employee</th>
+                    <th colspan="4">dalda employee</th>
                 </tr>
                 <tr>
                     <th>name</th>
@@ -22,7 +22,7 @@
                     <tr>
                 <td><xsl:value-of select="name"></xsl:value-of></td>
                 <td><xsl:value-of select="block"></xsl:value-of></td>
-                <td><xsl:value-of select="locatoin"></xsl:value-of></td>
+                <td><xsl:value-of select="location"></xsl:value-of></td>
                 <td><xsl:value-of select="number"></xsl:value-of></td>
                     </tr>
                 </xsl:for-each>
