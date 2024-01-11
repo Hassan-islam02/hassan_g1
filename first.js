@@ -36,3 +36,22 @@ console.log(true && true);
 console.log(true && false);
 console.log(false && false);
 console.log(!false && !false);
+
+// INCREMENT //
+
+let q = 70;
+console.log(q)      
+
+console.log(q+20);  // q = q+1 70 +1 => 71
+console.log(q);     //  71 
+
+console.log(++q)
+
+//decrement
+let w = 50;
+console.log(w)      
+
+console.log(w-10);  
+console.log(w);     
+
+console.log(--w)
