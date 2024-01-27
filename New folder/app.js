@@ -5,45 +5,58 @@ function validation(){
     let number = document.getElementById('number').value;
 
 
-    let usercheck =  /^[0-9a-zA-Z]+$/ ;
-    let emailcheck =  /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/ ;
-    let passwordcheck =  /^[0-9a-zA-Z]+$/ ;
-    let numbercheck =  /^[0-9a-zA-Z]+$/ ;
+    let userCheck = /^[0-9a-zA-Z]+$/;
+    let emailCheck = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    let passwordCheck = /^[0-9a-zA-Z]+$/;
+    let numberCheck = /^[0-9]+$/;
 
-    if(usercheck.test(username)){
-        documents.getElementById('usererror').innerHTML ="";
-        return false;
+
+    if(userCheck.test(username)){
+        document.getElementById('usererror').innerHTML = "";
     }
     else{
-        documents.getElementById('usererror').innerHTML ="invalid username";
-        return false;
+        document.getElementById('usererror').innerHTML = "Invalid Username"
+        return false;           
     }
 
-    if(emailcheck.test(email)){
-        documents.getElementById('emailerror').innerHTML ="";
-        return false;
+
+    if(emailCheck.test(email)){
+        document.getElementById('emailerror').innerHTML = "";
     }
     else{
-        documents.getElementById('emailerror').innerHTML ="invalid email";
-        return false;
+        document.getElementById('emailerror').innerHTML = "Invalid email"
+        return false;           
     }
 
-    if(passwordcheck.test(password)){
-        documents.getElementById('passworderror').innerHTML ="";
-        return false;
+
+    if(passwordCheck.test(password)){
+        document.getElementById('passworderror').innerHTML = "";
     }
     else{
-        documents.getElementById('passworderror').innerHTML ="invalid password";
-        return false;
+        document.getElementById('passworderror').innerHTML = "Invalid password"
+        return false;           
     }
 
-    if(numbercheck.test(number)){
-        documents.getElementById('numbererror').innerHTML ="";
-        return false;
+
+    if(numberCheck.test(number)){
+        document.getElementById('numbererror').innerHTML = "";
     }
     else{
-        documents.getElementById('numbererror').innerHTML ="invalid error";
+        document.getElementById('numbererror').innerHTML = "Invalid Number"
+        return false;           
+    }
+
+
+    if(userCheck.test(username) && emailCheck.test(email) && passwordCheck.test(password) && numberCheck.test(number) ){
+        swal({
+            title: "Contact Form",
+            text: "Form Has Been Submitted",
+            timer: 5000
+          });
+          return false;
+    }
+    else{
+        alert("Invalid Form");
         return false;
     }
-    if
 }
